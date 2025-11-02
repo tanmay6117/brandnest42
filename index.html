@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanmay Mishra | Marketing Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{background:#f7f9fb;color:#222;line-height:1.6}
+    header{background:#0d1b2a;color:#fff;padding:20px 0;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,0.2)}
+    header h1{font-size:2.2em;margin-bottom:5px}
+    header p{color:#ccc}
+    nav{margin-top:10px}
+    nav a{color:#fff;margin:0 10px;text-decoration:none;font-weight:500}
+    nav a:hover{text-decoration:underline}
+
+    section{padding:60px 10%;text-align:center}
+    h2{color:#0d1b2a;margin-bottom:15px;font-size:1.8em}
+    .intro p{max-width:700px;margin:10px auto;color:#444}
+    
+    .skills-grid, .service-grid{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:20px;margin-top:30px
+    }
+    .card{background:#fff;border-radius:12px;padding:20px;
+          box-shadow:0 4px 8px rgba(0,0,0,0.1);transition:0.3s}
+    .card:hover{transform:translateY(-6px);box-shadow:0 8px 14px rgba(0,0,0,0.15)}
+    .card h3{color:#0d1b2a;margin-bottom:10px}
+
+    footer{background:#0d1b2a;color:#ccc;text-align:center;padding:20px;margin-top:40px}
+    .contact a{color:#0d6efd;text-decoration:none}
+    .contact a:hover{text-decoration:underline}
+    button{background:#0d6efd;color:#fff;border:none;padding:10px 20px;
+            border-radius:8px;margin-top:20px;cursor:pointer}
+    button:hover{background:#084298}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tanmay Kumar Mishra</h1>
+    <p>Creative Marketing Strategist | Digital • Content • Brand Growth</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="intro">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate marketer and founder of <strong>BrandNest42</strong>,
+      helping startups and businesses grow through creative strategy,
+      storytelling, and data-driven campaigns. I blend technology, design, and
+      human emotion to create impactful marketing experiences.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>GEMA Foundation</h3>
+      <p><strong>Role:</strong> Email Marketing Executive</p>
+      <p><strong>Duration:</strong> June 2024 – September 2025</p>
+      <p>
+        • Crafted targeted email campaigns that increased engagement by 35%. <br />
+        • Built automated sequences to improve donor communication and retention. <br />
+        • Analyzed open & conversion rates to refine campaign strategy.
+      </p>
+    </div>
+
+    <div class="card" style="margin-top:20px">
+      <h3>BrandNest42</h3>
+      <p><strong>Founder & Marketing Head</strong></p>
+      <p>
+        Leading a team to provide end-to-end marketing solutions — branding,
+        web design, digital ads, and social media strategy for small businesses.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Core Skills</h2>
+    <div class="skills-grid">
+      <div class="card"><h3>Digital Marketing</h3><p>SEO, SEM, Google Ads, Campaign Optimization</p></div>
+      <div class="card"><h3>Content Strategy</h3><p>Copywriting, Storytelling, Brand Voice Creation</p></div>
+      <div class="card"><h3>Social Media Marketing</h3><p>Instagram, LinkedIn, Meta Ads, Growth Planning</p></div>
+      <div class="card"><h3>Email Marketing</h3><p>Automation, Segmentation, Drip Campaigns</p></div>
+      <div class="card"><h3>Branding</h3><p>Logo, Color Psychology, Taglines, Brand Positioning</p></div>
+      <div class="card"><h3>Analytics</h3><p>Google Analytics, Insights, ROI Optimization</p></div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Marketing Services I Offer</h2>
+    <div class="service-grid">
+      <div class="card"><h3>Digital Advertising</h3><p>Google & Meta Ad campaigns that convert leads into customers.</p></div>
+      <div class="card"><h3>Content Marketing</h3><p>Blogs, newsletters, and brand storytelling for engagement.</p></div>
+      <div class="card"><h3>SEO Optimization</h3><p>Boost visibility and organic traffic through smart keyword strategy.</p></div>
+      <div class="card"><h3>Brand Identity</h3><p>Creating visual & verbal brand systems that connect emotionally.</p></div>
+      <div class="card"><h3>Marketing Automation</h3><p>Email sequences & workflows that nurture customers 24/7.</p></div>
+      <div class="card"><h3>Email marketing</h3><p>Email sequences & workflows that nurture customers 24/7.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Let’s collaborate and grow your brand!</p>
+    <div class="contact">
+      <p> <a href="mailto:t97814720@gmail.com">t97814720@gmail.com</a></p>
+      <p> +91 6207650796</p>
+      <p> Chandigarh, India</p>
+      <button onclick="window.open('mailto:t97814720@gmail.com')">Hire Me</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Tanmay Kumar Mishra | BrandNest42 Marketing</p>
+  </footer>
+</body>
+</html>
